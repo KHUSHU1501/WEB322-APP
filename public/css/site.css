@@ -1,42 +1,48 @@
-/*********************************************************************************
-* WEB322 – Assignment 03
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
-* of this assignment has been copied manually or electronically from any other source
-* (including 3rd party web sites) or distributed to other students.
-*
-* Name: Khushwant Singh Rao     Student ID: 145931192    Date: 24/10/2021
-*
-* Online (Heroku) Link: https://obscure-coast-19516.herokuapp.com/
-*
-********************************************************************************/
-
+.btn-info {
+  color: #fff;
+  background-color: #53ca4f;
+  border-color: #630000;
+}
+.btn-info:focus,
+.btn-info.focus {
+  color: #fff;
+  background-color: #53ca4f;
+  border-color: #800000;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #53ca4f;
+  border-color: #800000;
+}
+.navbar-default {
+  background-color: #53ca4f;
+  border-color: #700000;
+  border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+background-color: #7a1f1f;
+  color: rgb(245, 242, 248);
+}
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgb(35, 0, 88);
+}
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+color: rgb(0, 90, 27);
+background-color: transparent;
+}
+legend {
+  color: white;
+}
 body {
-
-    font-size: 10pt;
-  
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  
-    color: rgb(112, 50, 50);
-  
-    line-height: 14pt;
-  
-    padding-left: 5pt;
-  
-    padding-right: 5pt;
-  
-    padding-top: 5pt;
-  
-  }
-  
-
-  
- 
-  
-
-  
-  
-
-  
-
-  
- 
+  color: rgb(46, 2, 2);
+  background: rgb(212, 212, 212);
+}
