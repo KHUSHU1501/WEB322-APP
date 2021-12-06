@@ -1,3 +1,15 @@
+/*********************************************************************************
+* WEB322 – Assignment 06
+* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
+* of this assignment has been copied manually or electronically from any other source
+* (including 3rd party web sites) or distributed to other students.
+*
+* Name: Khushwant Singh Rao     Student ID: 145931192    Date: 05/12/2021
+*
+* Online (Heroku) Link: https://obscure-coast-19516.herokuapp.com/
+*
+********************************************************************************/
+
 const mongoose = require("mongoose");
 const bcrypt = require('bcryptjs');
 
