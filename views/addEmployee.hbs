@@ -18,7 +18,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="last_name">Last Name:</label>
-                            <input class="form-control" id="lastName" name="lastName" type="text"  />
+                            <input class="form-control" id="lastName" name="lastName" type="text" />
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="SSN">Social Security Num:</label>
-                            <input class="form-control" id="SSN" name="SSN" type="text"  />
+                            <input class="form-control" id="SSN" name="SSN" type="text" />
                         </div>
                     </div>
                 </div>
@@ -40,17 +40,17 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label for="addressStreet">Address (Street):</label>
-                            <input class="form-control" id="addressStreet" name="addressStreet" type="text"  />
+                            <input class="form-control" id="addressStreet" name="addressStreet" type="text" />
                         </div>
                     </div>
                     <div class="col-md-3">
                         <label for="addressCity">Address (City):</label>
-                        <input class="form-control" id="addressCity" name="addressCity" type="text"  />
+                        <input class="form-control" id="addressCity" name="addressCity" type="text" />
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label for="addressState">Address (State):</label>
-                            <input class="form-control" id="addressState" name="addressState" type="text"  />
+                            <input class="form-control" id="addressState" name="addressState" type="text" />
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -83,7 +83,7 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Status:</label><br />
-                            <label  class="checkbox-inline">
+                            <label class="checkbox-inline">
                                 <input type="radio" id="statusFT" name="status" value="Full Time" /> Full Time
                             </label>
                             <label class="checkbox-inline">
@@ -95,14 +95,14 @@
                         <div class="form-group">
                             <label for="department">Department</label>
                             {{#if departments}}
-                                <select class="form-control" name="department" id="department">
-                                        <option value="">Select Department</option>
-                                        {{#each departments}}
-                                            <option value="{{departmentId}}">{{departmentName}}</option>
-                                        {{/each}}
-                                </select>
+                            <select class="form-control" name="department" id="department">
+                                <option value="">Select Department</option>
+                                {{#each departments}}
+                                <option value="{{departmentId}}">{{departmentName}}</option>
+                                {{/each}}
+                            </select>
                             {{else}}
-                                <div>No Departments</div>
+                            <div>No Departments</div>
                             {{/if}}
                         </div>
                     </div>
